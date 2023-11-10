@@ -1,0 +1,22 @@
+{
+  "header": {
+    "logo": "Project planner",
+    "navigation": [
+      {
+        "path": "/projects",
+        "name": "My Projects"
+      }
+    ],
+    "auth": {
+      "signedIn": {
+        "path": "/api/auth/signout",
+        "name": "Sign out"
+      },
+      "signedOut": {
+        "path": "/api/auth/signin",
+        "name": "Sign in"
+      }
+    },
+    "greeting": "Hello,"
+  }
+}
